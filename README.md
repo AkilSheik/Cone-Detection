@@ -6,4 +6,4 @@ Methodology: I first applied HSV on the input image to make distinct the various
 
 What did you try and why do you think it did not work: Through trying this appraoch, I was successful in making the two lines go through the cones. An improvement would be to pre-process the centroids before applying the KMeans clustering algorithim. This is because if there were other objects in the picture that had a very similar color as the orange cones, then it the program would accept that object as a contour. This needs to be filtered out through considering otehr aspects of a cone(area for instance). In this case, this did not apply. 
 
-Libraries used: cv2, numpy, sklearn
+Libraries used: cv2, numpy, scikit-learn
