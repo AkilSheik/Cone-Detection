@@ -6,4 +6,4 @@ Methodology: All my code for the project is contained in images.py, while red.pn
 
 What did you try and why do you think it did not work: Through trying this appraoch, I was successful in making the two lines go through the cones. An improvement would be to pre-process the centroids before applying the KMeans clustering algorithim. This is because if there were other objects in the picture that had a very similar color as the orange cones, then it the program would accept that object as a contour. This needs to be filtered out through considering otehr aspects of a cone(area for instance). In this case, this did not apply. 
 
-Libraries used: cv2 (OpenCV), numpy, scikit-learn
+Libraries used: cv2 (OpenCV), numpy, scikit-learn. Used OpenCV for image processing, numpy to store the data points and arrays passed as input and returned from OpenCV. Used scikit-learn's KMeans algorithim.
